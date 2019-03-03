@@ -1,0 +1,28 @@
+{
+  "name": "MEAN-Example",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000M\u0000E\u0000A\u0000N\u0000-\u0000e\u0000x\u0000a\u0000m\u0000p\u0000l\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index",
+    "dev": "nodemon server/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abordes96/MEAN-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abordes96/MEAN-example/issues"
+  },
+  "homepage": "https://github.com/abordes96/MEAN-example#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
