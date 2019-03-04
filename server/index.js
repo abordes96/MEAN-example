@@ -1,5 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
+const cors = require('cors');
 const app = express();
 
 const { mongoose } = require('./database');
@@ -13,6 +14,8 @@ app.set('port', process.env.PORT || 3000);
 app.use(morgan('dev'));
 //Management json request
 app.use(express.json());
+//Management cors
+app.use(cors({origin: 'http://localhost:4200'}));
 
 //Routes
 app.use('/api/employees',require('./routes/employee.routes'));
